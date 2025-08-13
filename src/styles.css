@@ -1,5 +1,5 @@
 body {
-    background-color: antiquewhite;
+    background-color: #908a83;
     font-family: "Poppins", sans-serif;
 }
 
@@ -48,13 +48,19 @@ header button {
   line-height: 1.5;
   text-transform: uppercase;
   text-align: center;
-  text-decoration: none;
   background: white;
   letter-spacing: 3px;
-  color: #272044;
+  
   padding: 14px 28px;
   display: inline-block;
   margin-top: 32px;
+  border-radius: 10px;
+  border: 1px solid #908a83;
+}
+
+header a {
+    text-decoration: none;
+    color: #272044;
 }
 
 footer {
